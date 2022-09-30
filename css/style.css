@@ -1,0 +1,109 @@
+/* utility ********************/
+
+/* .debug{
+    border: 1px solid black;
+    min-height: 50px;
+} */
+
+:root{
+    --darkblue: #2C3E50;
+    --green: #1ABC9C;
+    --blue: #3A546D;
+    --white: #ffffff;
+}
+
+.bg-darkblue{
+    background-color: var(--darkblue);
+}
+
+.bg-green{
+    background-color: var(--green);
+}
+
+.bg-blue{
+    background-color: var(--blue);
+}
+
+.color-white{
+    color: var(--white);
+}
+
+nav{
+    min-height: 50px;
+}
+
+nav li{
+    list-style: none;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+}
+
+.hero{
+    margin-top: 3rem;
+}
+
+.hero img{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.hero span{
+    width: 20%;
+    height: 2px;
+    background-color: var(--white);
+}
+
+.fa-star{
+    margin: 4%;
+}
+
+.portfolio span{
+    width: 20%;
+    height: 2px;
+    background-color: var(--darkblue);
+}
+
+.contact span{
+    width: 20%;
+    height: 2px;
+    background-color: var(--darkblue);
+}
+
+.about span{
+    width: 20%;
+    height: 2px;
+    background-color: var(--white);
+}
+
+main img{
+    width: 100%;
+}
+
+.about a{
+    border: 1px solid var(--white);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.contact a{
+    color: var(--white);
+    width: 50px;
+    padding: 0.5rem;
+}
+
+footer a{
+    color: var(--green);
+    display: inline-block;
+}
+
+span{
+    width: 2rem;
+    line-height: 2rem;
+    align-content: center;
+    display: inline-block;
+    height: 2rem;
+    cursor: pointer;
+}
